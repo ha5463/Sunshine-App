@@ -59,6 +59,7 @@ public class DetailActivity extends ActionBarActivity {
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
             Log.v("SETTING DETAIL","OK");
+            Log.v("INPUT", getString(R.string.pref_location_key));
             startActivity(new Intent(this , SettingsActivity.class));
             return true;
         }
