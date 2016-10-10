@@ -11,6 +11,7 @@ android {
         versionCode 1
         versionName "1.0"
         buildConfigField("String", "API_KEY", API_KEY)
+        vectorDrawables.useSupportLibrary = true
     }
     buildTypes {
         release {
@@ -23,7 +24,8 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.0.1'
+    compile 'com.android.support:appcompat-v7:23.0.0'
     compile 'com.android.support:design:23.0.1'
     compile 'com.android.support:support-v4:23.0.1'
+
 }
