@@ -196,7 +196,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity implements Pre
             // updated to reflect the new value, per the Android Design
             // guidelines.
             bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_location_key)));
-            bindPreferenceSummaryToValue(findPreference("example_list"));
+            bindPreferenceSummaryToValue(findPreference(getString(R.string.pref_unit_key)));
 
         }
 
